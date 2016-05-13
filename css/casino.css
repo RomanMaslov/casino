@@ -1,0 +1,219 @@
+﻿body
+{
+	/*background-color:Gray;*/
+	margin: 0px 0px 0px 00px;
+}
+
+#divMain
+{
+	width: 1024px;
+/*	height: 640px; */
+	height: 900px;
+	border: 1px solid #000000;
+	
+}
+
+td.numeric
+{
+	width: 117px;
+}
+
+div.sign
+{
+	border-width: 1px;
+	border-color: #999999;
+	height: 140px;
+	width: 117px;
+	margin: 2px 2px 2px 2px;
+	background: #FFCC00;
+	font-size: 120px;
+	font-family: Tahoma; 
+	text-align: center;
+	vertical-align: bottom;
+	color: #3333CC;
+}
+
+a.num:link, a.num:visited, a.num:active
+{
+	text-decoration: none;
+	color: #3333CC;
+}
+
+a.num:hover
+{
+	text-decoration: none;
+	color: #FF6600;
+}
+
+a.sign:link, a.sign:visited, a.sign:active
+{
+	text-decoration: none;
+	color: #3333CC;
+}
+
+a.sign:hover
+{
+	text-decoration: none;
+	color: #FF6600;
+}
+
+td.fishkaEmpty
+{
+	height: 60px;
+	width: 60px;
+	background: url(../img/fishkaEmpty.png) no-repeat;
+}
+
+
+/*
+td.fishkaFill
+{
+	height: 60px;
+	width: 60px;
+	background: url(../img/fishkaFill.png) no-repeat;
+	padding: 0px 0px 0px 0px; 
+	
+	
+}
+
+
+span.fishkaFill
+{
+	height: 60px;
+	width: 60px;
+	background: url(../img/fishkaFill.png) no-repeat;
+	
+	
+}
+
+
+*/
+td.space
+{
+	width: 20px;
+	height: 60px;
+}
+
+td.space100
+{
+	width: 100px;
+}
+
+td.bank
+{
+	background: url(../img/bank.png) no-repeat;
+	width: 185px;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 90px;
+	font-family: Tahoma;
+	/*font-weight:bold;*/
+}
+
+.text
+{
+	font-family: Arial;
+	font-size: 26px;
+	color: #666666;
+	text-align:center;
+	height: 60px;
+		
+}
+
+td.sign
+{
+	width: 140px;
+	/*text-align:center;*/
+}
+
+div.lessMore
+{
+	height: 60px;
+	width: 60px;
+	background: url(../img/signBg.png) no-repeat;
+	font-size: 45px;
+	font-family: Verdana; 
+	font-weight:bold;
+	text-align: center;
+	vertical-align:middle;
+	margin: 6px 2px 2px 2px; 
+}
+
+#signLessTrue
+{
+	height: 61px;
+	width: 62px;
+	background: url(../img/signLessTrue.png) no-repeat;
+	margin: 6px 2px 2px 2px;
+	display:none; 
+}
+
+#signMooTrue
+{
+	height: 61px;
+	width: 62px;
+	background: url(../img/signMooTrue.png) no-repeat;
+	margin: 6px 2px 2px 2px;
+	display:none; 
+}
+
+#signLessFalse
+{
+	height: 61px;
+	width: 62px;
+	background: url(../img/signLessFalse.png) no-repeat;
+	margin: 6px 2px 2px 2px; 
+	display:none; 
+}
+
+#signMooFalse
+{
+	height: 61px;
+	width: 62px;
+	background: url(../img/signMooFalse.png) no-repeat;
+	margin: 6px 2px 2px 2px; 
+	display:none; 
+}
+
+
+#divNext
+{
+	background: url(../img/bttnNext.png) no-repeat;
+	height: 49px;
+	width: 155px;
+	cursor:pointer;
+	display:none;
+}
+
+#divResult
+{
+	background: url(../img/countResult.png) no-repeat;
+	height: 168px;
+	width: 262px;
+	margin: 50px 0px 0px 0px;
+}
+
+#divCountResult
+{
+    padding: 40px 10px 10px 10px;
+    font-family: Arial;
+	font-size: 70px;
+	color: #666666;
+	font-weight:bold;
+}
+
+.red
+{
+	color:#FF0000;	
+}
+
+.green
+{
+	color: #009900;		
+}
+
+#divSound
+{
+	display:none;
+}
